@@ -1,0 +1,28 @@
+public class Oppgaver {
+
+	public static void main(String[] args) {
+		print(fyll(10));
+	}
+	
+	//oppgave a)
+	public static int[] fyll(int y) {
+		int[] fyll;
+		fyll = new int[y];
+		for (int i = 0; i < y; i++) {
+			fyll[i] = (int) (Math.random() * y);
+		}
+		return fyll;
+	}
+
+	//oppgave b)
+	public static void print(int[] fyll) {
+		for (int i = 0; i < fyll.length; i++) {
+			System.out.printf("%3d", fyll[i]);
+		}
+	}
+	
+	//oppgave c)
+	public static void sjekk(int[] fyll, int x){
+		
+	}
+}
