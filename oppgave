@@ -16,13 +16,18 @@ public class Oppgaver {
 
 	//oppgave b)
 	public static void print(int[] fyll) {
-		for (int i = 0; i < fyll.length; i++) {
+		for (int i = 0; i < fyll.length; i++) { 		// Forelesning 10, side 35
 			System.out.printf("%3d", fyll[i]);
 		}
 	}
 	
 	//oppgave c)
-	public static void sjekk(int[] fyll, int x){
-		
+	public static void sjekk(int[] fyll, int x){ 		// 
+						
+						// Her må du ha en int med verdi 0
+						// forelesning 10, side 35
+						// if "i" er likt som x, pluss 1.
+						// }
+						// return inten
 	}
 }
