@@ -17,7 +17,7 @@ public class Oppgaver {
 	//oppgave b)
 	public static void print(int[] fyll) {
 		for (int number: fyll) {
-			System.out.printf("%3d", fyll[i]);
+			System.out.printf("%3d", fyll);
 		}
 	}
 	
